@@ -1,2 +1,8 @@
 # ATIVIDADE-02---AUDITORIA-E-SEGURAN-A-DE-SISTEMAS
 Repositório destinado para realização da Atividade 2
+
+1. INTRODUÇÃO
+
+2. HTML E CSS
+
+3. JAVASCRIPT E CRIPTOGRAFIA
