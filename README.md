@@ -10,6 +10,7 @@ Cifra de César → Exemplo de criptografia simétrica, onde a mesma chave é us
 RSA (RSA-OAEP) → Exemplo de criptografia assimétrica, com geração de chaves pública e privada para operações seguras.
 
 O objetivo é reforçar conceitos de segurança da informação, mostrando como dados podem ser protegidos durante a transmissão.
+
 2. HTML E CSS
 
 A interface do projeto foi desenvolvida com HTML e CSS, permitindo ao usuário:
