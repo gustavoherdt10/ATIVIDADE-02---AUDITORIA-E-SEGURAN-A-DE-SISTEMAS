@@ -7,6 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Criptografia Sincrona e Assincrono</h1>
+    <div>
+        <h1>Criptografia simétrica e assimétrica</h1>
+        <label for="texto">Texto:</label>
+        <textarea id="texto" placeholder="Digite o texto..."></textarea>
+
+        <label for="tipo">Tipo de Criptografia:</label>
+        <select id="tipo">
+            <option value="simetrica">Simétrica (Cifra de César)</option>
+            <option value="assimetrica">Assimétrica (RSA)</option>
+        </select>
+
+        <div id="chaveSimetricaContainer">
+            <label for="chaveSimetrica">Chave Simétrica:</label>
+            <input type="number" id="chaveSimetrica" placeholder="Ex: 3" />
+        </div>
+
+        <button onclick="criptografar()">Criptografar</button>
+        <button onclick="descriptografar()">Descriptografar</button>
+
+        <h3>Resultado:</h3>
+        <textarea id="resultado" readonly></textarea>
+
+        <div id="rsaKeys"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
